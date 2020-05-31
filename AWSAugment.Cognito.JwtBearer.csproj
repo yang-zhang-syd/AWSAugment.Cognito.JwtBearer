@@ -2,6 +2,10 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
+        <Title>AWSAugment.Cognito.JwtBearer</Title>
+        <Authors>Yang Zhang</Authors>
+        <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/yang-zhang-syd/AWSAugment.Cognito.JwtBearer</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>
