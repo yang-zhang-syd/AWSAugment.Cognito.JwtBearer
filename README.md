@@ -2,6 +2,14 @@
 
 DotNet Core Jwt Bearer extension for AWS Cognito
 
+[nuget link](https://www.nuget.org/packages/AWSAugment.Cognito.JwtBearer/)
+
+Command to install
+
+```bash
+dotnet add package AWSAugment.Cognito.JwtBearer --version 1.0.0
+```
+
 ## Background
 
 JWT token from AWS Cognito signin doesnot include standard `aud` property in the payload. So you cannot verify the audience using your app's client id. This package will validate `client_id` included in the bearer token payload instead.
